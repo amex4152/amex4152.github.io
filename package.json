@@ -1,6 +1,6 @@
 {
   "name": "amex4152-github-io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_gh": "ng build --prod --base-href 'amex4152.github.io'",
-    "to_master":"ngh --branch=master"
+    "to_master":"ngh --branch=master --cname=cristiangaribay.com"
   },
   "private": true,
   "dependencies": {
