@@ -26,9 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
-ng build --prod --base-href 'amex4152.github.io'
-
 remember Commit to dev
 
-ngh --branch=master --message="CNAME adjusted"
+ng build --prod
+
+ngh --branch=master --cname="cristiangaribay.com"
